@@ -1,0 +1,1004 @@
+{
+  "gerado_em": "04/08/2026 16:17",
+  "hoje": "2026-08-04",
+  "periodo_dados": {
+    "de": "2026-07-17",
+    "ate": "2026-08-04"
+  },
+  "metas": {
+    "cac": 47.9,
+    "roas": 1.0
+  },
+  "ticket_medio_geral": 47.9,
+  "periodos": {
+    "hoje": {
+      "de": "2026-08-04",
+      "ate": "2026-08-04",
+      "total": {
+        "gasto": 169.23,
+        "impr": 889.0,
+        "cliques": 5.0,
+        "pv": 2.0,
+        "ck": 0.0,
+        "vendas": 0,
+        "fat": 0.0,
+        "cpm": 190.36,
+        "ctr": 0.0056,
+        "cpc": 33.85,
+        "cpv": 84.62,
+        "cr": 0.4,
+        "cpic": null,
+        "vischk": 0.0,
+        "convchk": null,
+        "convlp": 0.0,
+        "cac": null,
+        "roas": 0.0,
+        "ticket": null
+      },
+      "ads": {
+        "gasto": 169.23,
+        "impr": 889.0,
+        "cliques": 5.0,
+        "pv": 2.0,
+        "ck": 0.0,
+        "vendas": 0,
+        "fat": 0.0,
+        "cpm": 190.36,
+        "ctr": 0.0056,
+        "cpc": 33.85,
+        "cpv": 84.62,
+        "cr": 0.4,
+        "cpic": null,
+        "vischk": 0.0,
+        "convchk": null,
+        "convlp": 0.0,
+        "cac": null,
+        "roas": 0.0,
+        "ticket": null
+      },
+      "campanhas": [
+        {
+          "nome": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "gasto": 169.23,
+          "impr": 889.0,
+          "cliques": 5.0,
+          "pv": 2.0,
+          "ck": 0.0,
+          "vendas": 0,
+          "fat": 0.0,
+          "cpm": 190.36,
+          "ctr": 0.0056,
+          "cpc": 33.85,
+          "cpv": 84.62,
+          "cr": 0.4,
+          "cpic": null,
+          "vischk": 0.0,
+          "convchk": null,
+          "convlp": 0.0,
+          "cac": null,
+          "roas": 0.0,
+          "ticket": null
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "CSER10K - 12",
+          "gasto": 96.33,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 14",
+          "gasto": 30.59,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - VD - 05",
+          "gasto": 42.31,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "piores_anuncios": []
+    },
+    "ontem": {
+      "de": "2026-08-03",
+      "ate": "2026-08-03",
+      "total": {
+        "gasto": 369.85,
+        "impr": 2035.0,
+        "cliques": 23.0,
+        "pv": 18.0,
+        "ck": 4.0,
+        "vendas": 2,
+        "fat": 95.8,
+        "cpm": 181.74,
+        "ctr": 0.0113,
+        "cpc": 16.08,
+        "cpv": 20.55,
+        "cr": 0.7826,
+        "cpic": 92.46,
+        "vischk": 0.2222,
+        "convchk": 0.5,
+        "convlp": 0.1111,
+        "cac": 184.92,
+        "roas": 0.26,
+        "ticket": 47.9
+      },
+      "ads": {
+        "gasto": 369.85,
+        "impr": 2035.0,
+        "cliques": 23.0,
+        "pv": 18.0,
+        "ck": 4.0,
+        "vendas": 2,
+        "fat": 95.8,
+        "cpm": 181.74,
+        "ctr": 0.0113,
+        "cpc": 16.08,
+        "cpv": 20.55,
+        "cr": 0.7826,
+        "cpic": 92.46,
+        "vischk": 0.2222,
+        "convchk": 0.5,
+        "convlp": 0.1111,
+        "cac": 184.92,
+        "roas": 0.26,
+        "ticket": 47.9
+      },
+      "campanhas": [
+        {
+          "nome": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "gasto": 369.85,
+          "impr": 2035.0,
+          "cliques": 23.0,
+          "pv": 18.0,
+          "ck": 4.0,
+          "vendas": 2,
+          "fat": 95.8,
+          "cpm": 181.74,
+          "ctr": 0.0113,
+          "cpc": 16.08,
+          "cpv": 20.55,
+          "cr": 0.7826,
+          "cpic": 92.46,
+          "vischk": 0.2222,
+          "convchk": 0.5,
+          "convlp": 0.1111,
+          "cac": 184.92,
+          "roas": 0.26,
+          "ticket": 47.9
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "CSER10K - VD - 05",
+          "gasto": 102.33,
+          "vendas": 2,
+          "cac": 51.16,
+          "roas": 0.94
+        },
+        {
+          "nome": "CSER10K - 12",
+          "gasto": 210.4,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 14",
+          "gasto": 57.12,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "piores_anuncios": []
+    },
+    "3d": {
+      "de": "2026-08-02",
+      "ate": "2026-08-04",
+      "total": {
+        "gasto": 1016.04,
+        "impr": 5016.0,
+        "cliques": 55.0,
+        "pv": 39.0,
+        "ck": 9.0,
+        "vendas": 4,
+        "fat": 191.6,
+        "cpm": 202.56,
+        "ctr": 0.011,
+        "cpc": 18.47,
+        "cpv": 26.05,
+        "cr": 0.7091,
+        "cpic": 112.89,
+        "vischk": 0.2308,
+        "convchk": 0.4444,
+        "convlp": 0.1026,
+        "cac": 254.01,
+        "roas": 0.19,
+        "ticket": 47.9
+      },
+      "ads": {
+        "gasto": 1016.04,
+        "impr": 5016.0,
+        "cliques": 55.0,
+        "pv": 39.0,
+        "ck": 9.0,
+        "vendas": 4,
+        "fat": 191.6,
+        "cpm": 202.56,
+        "ctr": 0.011,
+        "cpc": 18.47,
+        "cpv": 26.05,
+        "cr": 0.7091,
+        "cpic": 112.89,
+        "vischk": 0.2308,
+        "convchk": 0.4444,
+        "convlp": 0.1026,
+        "cac": 254.01,
+        "roas": 0.19,
+        "ticket": 47.9
+      },
+      "campanhas": [
+        {
+          "nome": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "gasto": 1016.04,
+          "impr": 5016.0,
+          "cliques": 55.0,
+          "pv": 39.0,
+          "ck": 9.0,
+          "vendas": 4,
+          "fat": 191.6,
+          "cpm": 202.56,
+          "ctr": 0.011,
+          "cpc": 18.47,
+          "cpv": 26.05,
+          "cr": 0.7091,
+          "cpic": 112.89,
+          "vischk": 0.2308,
+          "convchk": 0.4444,
+          "convlp": 0.1026,
+          "cac": 254.01,
+          "roas": 0.19,
+          "ticket": 47.9
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "CSER10K - VD - 05",
+          "gasto": 288.13,
+          "vendas": 3,
+          "cac": 96.04,
+          "roas": 0.5
+        },
+        {
+          "nome": "CSER10K - 12",
+          "gasto": 572.55,
+          "vendas": 1,
+          "cac": 572.55,
+          "roas": 0.08
+        },
+        {
+          "nome": "CSER10K - 14",
+          "gasto": 155.36,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "piores_anuncios": []
+    },
+    "7d": {
+      "de": "2026-07-29",
+      "ate": "2026-08-04",
+      "total": {
+        "gasto": 2335.01,
+        "impr": 12811.0,
+        "cliques": 167.0,
+        "pv": 116.0,
+        "ck": 25.0,
+        "vendas": 10,
+        "fat": 479.0,
+        "cpm": 182.27,
+        "ctr": 0.013,
+        "cpc": 13.98,
+        "cpv": 20.13,
+        "cr": 0.6946,
+        "cpic": 93.4,
+        "vischk": 0.2155,
+        "convchk": 0.4,
+        "convlp": 0.0862,
+        "cac": 233.5,
+        "roas": 0.21,
+        "ticket": 47.9
+      },
+      "ads": {
+        "gasto": 2335.01,
+        "impr": 12811.0,
+        "cliques": 167.0,
+        "pv": 116.0,
+        "ck": 25.0,
+        "vendas": 10,
+        "fat": 479.0,
+        "cpm": 182.27,
+        "ctr": 0.013,
+        "cpc": 13.98,
+        "cpv": 20.13,
+        "cr": 0.6946,
+        "cpic": 93.4,
+        "vischk": 0.2155,
+        "convchk": 0.4,
+        "convlp": 0.0862,
+        "cac": 233.5,
+        "roas": 0.21,
+        "ticket": 47.9
+      },
+      "campanhas": [
+        {
+          "nome": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "gasto": 2335.01,
+          "impr": 12811.0,
+          "cliques": 167.0,
+          "pv": 116.0,
+          "ck": 25.0,
+          "vendas": 10,
+          "fat": 479.0,
+          "cpm": 182.27,
+          "ctr": 0.013,
+          "cpc": 13.98,
+          "cpv": 20.13,
+          "cr": 0.6946,
+          "cpic": 93.4,
+          "vischk": 0.2155,
+          "convchk": 0.4,
+          "convlp": 0.0862,
+          "cac": 233.5,
+          "roas": 0.21,
+          "ticket": 47.9
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "CSER10K - VD - 05",
+          "gasto": 657.13,
+          "vendas": 3,
+          "cac": 219.04,
+          "roas": 0.22
+        },
+        {
+          "nome": "CSER10K - 12",
+          "gasto": 1344.89,
+          "vendas": 6,
+          "cac": 224.15,
+          "roas": 0.21
+        },
+        {
+          "nome": "CSER10K - 14",
+          "gasto": 332.99,
+          "vendas": 1,
+          "cac": 332.99,
+          "roas": 0.14
+        }
+      ],
+      "piores_anuncios": []
+    },
+    "14d": {
+      "de": "2026-07-22",
+      "ate": "2026-08-04",
+      "total": {
+        "gasto": 4097.5,
+        "impr": 29062.0,
+        "cliques": 469.0,
+        "pv": 255.0,
+        "ck": 58.0,
+        "vendas": 20,
+        "fat": 958.0,
+        "cpm": 140.99,
+        "ctr": 0.0161,
+        "cpc": 8.74,
+        "cpv": 16.07,
+        "cr": 0.5437,
+        "cpic": 70.65,
+        "vischk": 0.2275,
+        "convchk": 0.3448,
+        "convlp": 0.0784,
+        "cac": 204.88,
+        "roas": 0.23,
+        "ticket": 47.9
+      },
+      "ads": {
+        "gasto": 4097.5,
+        "impr": 29062.0,
+        "cliques": 469.0,
+        "pv": 255.0,
+        "ck": 58.0,
+        "vendas": 20,
+        "fat": 958.0,
+        "cpm": 140.99,
+        "ctr": 0.0161,
+        "cpc": 8.74,
+        "cpv": 16.07,
+        "cr": 0.5437,
+        "cpic": 70.65,
+        "vischk": 0.2275,
+        "convchk": 0.3448,
+        "convlp": 0.0784,
+        "cac": 204.88,
+        "roas": 0.23,
+        "ticket": 47.9
+      },
+      "campanhas": [
+        {
+          "nome": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "gasto": 4097.5,
+          "impr": 29062.0,
+          "cliques": 469.0,
+          "pv": 255.0,
+          "ck": 58.0,
+          "vendas": 20,
+          "fat": 958.0,
+          "cpm": 140.99,
+          "ctr": 0.0161,
+          "cpc": 8.74,
+          "cpv": 16.07,
+          "cr": 0.5437,
+          "cpic": 70.65,
+          "vischk": 0.2275,
+          "convchk": 0.3448,
+          "convlp": 0.0784,
+          "cac": 204.88,
+          "roas": 0.23,
+          "ticket": 47.9
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "CSER10K - VD - 05",
+          "gasto": 1129.39,
+          "vendas": 7,
+          "cac": 161.34,
+          "roas": 0.3
+        },
+        {
+          "nome": "CSER10K - 12",
+          "gasto": 2081.81,
+          "vendas": 10,
+          "cac": 208.18,
+          "roas": 0.23
+        },
+        {
+          "nome": "CSER10K - 14",
+          "gasto": 671.72,
+          "vendas": 3,
+          "cac": 223.91,
+          "roas": 0.21
+        },
+        {
+          "nome": "CSER10K - VD - 04",
+          "gasto": 193.42,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 20",
+          "gasto": 21.16,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "piores_anuncios": []
+    },
+    "30d": {
+      "de": "2026-07-06",
+      "ate": "2026-08-04",
+      "total": {
+        "gasto": 5117.64,
+        "impr": 34288.0,
+        "cliques": 590.0,
+        "pv": 342.0,
+        "ck": 81.0,
+        "vendas": 32,
+        "fat": 1532.8,
+        "cpm": 149.25,
+        "ctr": 0.0172,
+        "cpc": 8.67,
+        "cpv": 14.96,
+        "cr": 0.5797,
+        "cpic": 63.18,
+        "vischk": 0.2368,
+        "convchk": 0.284,
+        "convlp": 0.0673,
+        "cac": 159.93,
+        "roas": 0.3,
+        "ticket": 47.9
+      },
+      "ads": {
+        "gasto": 5117.64,
+        "impr": 34288.0,
+        "cliques": 590.0,
+        "pv": 342.0,
+        "ck": 81.0,
+        "vendas": 23,
+        "fat": 1101.7,
+        "cpm": 149.25,
+        "ctr": 0.0172,
+        "cpc": 8.67,
+        "cpv": 14.96,
+        "cr": 0.5797,
+        "cpic": 63.18,
+        "vischk": 0.2368,
+        "convchk": 0.284,
+        "convlp": 0.0673,
+        "cac": 222.51,
+        "roas": 0.22,
+        "ticket": 47.9
+      },
+      "campanhas": [
+        {
+          "nome": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "gasto": 5117.64,
+          "impr": 34288.0,
+          "cliques": 590.0,
+          "pv": 342.0,
+          "ck": 81.0,
+          "vendas": 23,
+          "fat": 1101.7,
+          "cpm": 149.25,
+          "ctr": 0.0172,
+          "cpc": 8.67,
+          "cpv": 14.96,
+          "cr": 0.5797,
+          "cpic": 63.18,
+          "vischk": 0.2368,
+          "convchk": 0.284,
+          "convlp": 0.0673,
+          "cac": 222.51,
+          "roas": 0.22,
+          "ticket": 47.9
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "CSER10K - VD - 05",
+          "gasto": 1392.3,
+          "vendas": 8,
+          "cac": 174.04,
+          "roas": 0.28
+        },
+        {
+          "nome": "CSER10K - 14",
+          "gasto": 920.7,
+          "vendas": 5,
+          "cac": 184.14,
+          "roas": 0.26
+        },
+        {
+          "nome": "CSER10K - 12",
+          "gasto": 2081.81,
+          "vendas": 10,
+          "cac": 208.18,
+          "roas": 0.23
+        },
+        {
+          "nome": "CSER10K - VD - 04",
+          "gasto": 193.42,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 20",
+          "gasto": 296.34,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "piores_anuncios": [
+        {
+          "nome": "CSER10K - 18",
+          "gasto": 58.25,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 21",
+          "gasto": 58.5,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 15",
+          "gasto": 56.81,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - VD - 03",
+          "gasto": 59.51,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ]
+    },
+    "mes": {
+      "de": "2026-08-01",
+      "ate": "2026-08-04",
+      "total": {
+        "gasto": 1293.85,
+        "impr": 6612.0,
+        "cliques": 75.0,
+        "pv": 51.0,
+        "ck": 12.0,
+        "vendas": 6,
+        "fat": 287.4,
+        "cpm": 195.68,
+        "ctr": 0.0113,
+        "cpc": 17.25,
+        "cpv": 25.37,
+        "cr": 0.68,
+        "cpic": 107.82,
+        "vischk": 0.2353,
+        "convchk": 0.5,
+        "convlp": 0.1176,
+        "cac": 215.64,
+        "roas": 0.22,
+        "ticket": 47.9
+      },
+      "ads": {
+        "gasto": 1293.85,
+        "impr": 6612.0,
+        "cliques": 75.0,
+        "pv": 51.0,
+        "ck": 12.0,
+        "vendas": 6,
+        "fat": 287.4,
+        "cpm": 195.68,
+        "ctr": 0.0113,
+        "cpc": 17.25,
+        "cpv": 25.37,
+        "cr": 0.68,
+        "cpic": 107.82,
+        "vischk": 0.2353,
+        "convchk": 0.5,
+        "convlp": 0.1176,
+        "cac": 215.64,
+        "roas": 0.22,
+        "ticket": 47.9
+      },
+      "campanhas": [
+        {
+          "nome": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "gasto": 1293.85,
+          "impr": 6612.0,
+          "cliques": 75.0,
+          "pv": 51.0,
+          "ck": 12.0,
+          "vendas": 6,
+          "fat": 287.4,
+          "cpm": 195.68,
+          "ctr": 0.0113,
+          "cpc": 17.25,
+          "cpv": 25.37,
+          "cr": 0.68,
+          "cpic": 107.82,
+          "vischk": 0.2353,
+          "convchk": 0.5,
+          "convlp": 0.1176,
+          "cac": 215.64,
+          "roas": 0.22,
+          "ticket": 47.9
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "CSER10K - VD - 05",
+          "gasto": 363.99,
+          "vendas": 3,
+          "cac": 121.33,
+          "roas": 0.39
+        },
+        {
+          "nome": "CSER10K - 12",
+          "gasto": 739.06,
+          "vendas": 3,
+          "cac": 246.35,
+          "roas": 0.19
+        },
+        {
+          "nome": "CSER10K - 14",
+          "gasto": 190.8,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "piores_anuncios": []
+    },
+    "mespass": {
+      "de": "2026-07-01",
+      "ate": "2026-07-31",
+      "total": {
+        "gasto": 3823.79,
+        "impr": 27676.0,
+        "cliques": 515.0,
+        "pv": 291.0,
+        "ck": 69.0,
+        "vendas": 26,
+        "fat": 1245.4,
+        "cpm": 138.16,
+        "ctr": 0.0186,
+        "cpc": 7.42,
+        "cpv": 13.14,
+        "cr": 0.565,
+        "cpic": 55.42,
+        "vischk": 0.2371,
+        "convchk": 0.2464,
+        "convlp": 0.0584,
+        "cac": 147.07,
+        "roas": 0.33,
+        "ticket": 47.9
+      },
+      "ads": {
+        "gasto": 3823.79,
+        "impr": 27676.0,
+        "cliques": 515.0,
+        "pv": 291.0,
+        "ck": 69.0,
+        "vendas": 17,
+        "fat": 814.3,
+        "cpm": 138.16,
+        "ctr": 0.0186,
+        "cpc": 7.42,
+        "cpv": 13.14,
+        "cr": 0.565,
+        "cpic": 55.42,
+        "vischk": 0.2371,
+        "convchk": 0.2464,
+        "convlp": 0.0584,
+        "cac": 224.93,
+        "roas": 0.21,
+        "ticket": 47.9
+      },
+      "campanhas": [
+        {
+          "nome": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "gasto": 3823.79,
+          "impr": 27676.0,
+          "cliques": 515.0,
+          "pv": 291.0,
+          "ck": 69.0,
+          "vendas": 17,
+          "fat": 814.3,
+          "cpm": 138.16,
+          "ctr": 0.0186,
+          "cpc": 7.42,
+          "cpv": 13.14,
+          "cr": 0.565,
+          "cpic": 55.42,
+          "vischk": 0.2371,
+          "convchk": 0.2464,
+          "convlp": 0.0584,
+          "cac": 224.93,
+          "roas": 0.21,
+          "ticket": 47.9
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "CSER10K - 14",
+          "gasto": 729.9,
+          "vendas": 5,
+          "cac": 145.98,
+          "roas": 0.33
+        },
+        {
+          "nome": "CSER10K - 12",
+          "gasto": 1342.75,
+          "vendas": 7,
+          "cac": 191.82,
+          "roas": 0.25
+        },
+        {
+          "nome": "CSER10K - VD - 05",
+          "gasto": 1028.31,
+          "vendas": 5,
+          "cac": 205.66,
+          "roas": 0.23
+        },
+        {
+          "nome": "CSER10K - VD - 04",
+          "gasto": 193.42,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 20",
+          "gasto": 296.34,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "piores_anuncios": [
+        {
+          "nome": "CSER10K - 18",
+          "gasto": 58.25,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 21",
+          "gasto": 58.5,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 15",
+          "gasto": 56.81,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - VD - 03",
+          "gasto": 59.51,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ]
+    },
+    "todo": {
+      "de": "2026-07-17",
+      "ate": "2026-08-04",
+      "total": {
+        "gasto": 5117.64,
+        "impr": 34288.0,
+        "cliques": 590.0,
+        "pv": 342.0,
+        "ck": 81.0,
+        "vendas": 32,
+        "fat": 1532.8,
+        "cpm": 149.25,
+        "ctr": 0.0172,
+        "cpc": 8.67,
+        "cpv": 14.96,
+        "cr": 0.5797,
+        "cpic": 63.18,
+        "vischk": 0.2368,
+        "convchk": 0.284,
+        "convlp": 0.0673,
+        "cac": 159.93,
+        "roas": 0.3,
+        "ticket": 47.9
+      },
+      "ads": {
+        "gasto": 5117.64,
+        "impr": 34288.0,
+        "cliques": 590.0,
+        "pv": 342.0,
+        "ck": 81.0,
+        "vendas": 23,
+        "fat": 1101.7,
+        "cpm": 149.25,
+        "ctr": 0.0172,
+        "cpc": 8.67,
+        "cpv": 14.96,
+        "cr": 0.5797,
+        "cpic": 63.18,
+        "vischk": 0.2368,
+        "convchk": 0.284,
+        "convlp": 0.0673,
+        "cac": 222.51,
+        "roas": 0.22,
+        "ticket": 47.9
+      },
+      "campanhas": [
+        {
+          "nome": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "gasto": 5117.64,
+          "impr": 34288.0,
+          "cliques": 590.0,
+          "pv": 342.0,
+          "ck": 81.0,
+          "vendas": 23,
+          "fat": 1101.7,
+          "cpm": 149.25,
+          "ctr": 0.0172,
+          "cpc": 8.67,
+          "cpv": 14.96,
+          "cr": 0.5797,
+          "cpic": 63.18,
+          "vischk": 0.2368,
+          "convchk": 0.284,
+          "convlp": 0.0673,
+          "cac": 222.51,
+          "roas": 0.22,
+          "ticket": 47.9
+        }
+      ],
+      "top_anuncios": [
+        {
+          "nome": "CSER10K - VD - 05",
+          "gasto": 1392.3,
+          "vendas": 8,
+          "cac": 174.04,
+          "roas": 0.28
+        },
+        {
+          "nome": "CSER10K - 14",
+          "gasto": 920.7,
+          "vendas": 5,
+          "cac": 184.14,
+          "roas": 0.26
+        },
+        {
+          "nome": "CSER10K - 12",
+          "gasto": 2081.81,
+          "vendas": 10,
+          "cac": 208.18,
+          "roas": 0.23
+        },
+        {
+          "nome": "CSER10K - VD - 04",
+          "gasto": 193.42,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 20",
+          "gasto": 296.34,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "piores_anuncios": [
+        {
+          "nome": "CSER10K - 18",
+          "gasto": 58.25,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 21",
+          "gasto": 58.5,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - 15",
+          "gasto": 56.81,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "nome": "CSER10K - VD - 03",
+          "gasto": 59.51,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ]
+    }
+  }
+}
