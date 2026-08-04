@@ -627,7 +627,8 @@ function iaBuildData(){
 function iaBackendUrl(){ return iaNormUrl(localStorage.getItem('ia_backend')||B.ia_worker_url||''); }
 function iaStatusText(){
   const b=iaBackendUrl(), p=localStorage.getItem('ia_pass');
-  document.getElementById('iaStatus').textContent = b ? '' : 'backend não configurado — clique em Configurar';
+  const st=document.getElementById('iaStatus'); if(!st) return;  /* aba IA removida (sem IA_WORKER_URL) */
+  st.textContent = b ? '' : 'backend não configurado — clique em Configurar';
   document.getElementById('iaGen').disabled = !(b&&p);
 }
 function iaShow(html){ document.getElementById('iaCards').innerHTML=html; }
@@ -781,7 +782,7 @@ function setPage(p){ STATE.page=p;
   document.getElementById('page-geral').classList.toggle('active',p==='geral');
   document.getElementById('page-meta').classList.toggle('active',p==='meta');
   document.getElementById('page-rel').classList.toggle('active',p==='rel');
-  document.getElementById('page-ia').classList.toggle('active',p==='ia');
+  { const pia=document.getElementById('page-ia'); if(pia) pia.classList.toggle('active',p==='ia'); }
   document.getElementById('ptitle').textContent = p==='meta'?'Meta Ads':(p==='rel'?'Relatórios':(p==='ia'?'IA Insights':'Visão Geral'));
   document.getElementById('navToggle').checked=false;
   history.replaceState(null,'', '#'+p);
@@ -819,6 +820,13 @@ document.getElementById('iaSave').addEventListener('click',()=>{
   document.getElementById('iaConfig').style.display='none'; iaStatusText(); });
 document.getElementById('iaGen').addEventListener('click',iaGenerate);
 
+/* Sem Worker de IA configurado (IA_WORKER_URL vazio em build/config.py):
+   remove a aba IA Insights para não exibir uma aba sem backend. */
+if(!B.ia_worker_url){
+  document.querySelectorAll('.nav-item[data-page="ia"]').forEach(n=>n.remove());
+  const pia=document.getElementById('page-ia'); if(pia) pia.remove();
+}
+
 document.title=(B.client_sub?B.client_sub+' · ':'')+(B.client_name||'Dashboard');
 document.getElementById('logoMain').textContent=B.client_name||'—';
 document.getElementById('logoSub').textContent=B.client_sub||'';
@@ -833,7 +841,7 @@ document.getElementById('buildFoot2').textContent='· build __BUILD_ID__';
 
 syncDateInputs(); iaStatusText();
 document.getElementById('taxToggle').classList.toggle('on', STATE.tax);  /* imposto Meta ON por padrão */
-setPage(location.hash==='#meta'?'meta':(location.hash==='#rel'?'rel':(location.hash==='#ia'?'ia':'geral')));
+setPage(location.hash==='#meta'?'meta':(location.hash==='#rel'?'rel':(location.hash==='#ia'&&B.ia_worker_url?'ia':'geral')));
 
 /* auto-refresh com cache-bust ~30 min */
 setTimeout(()=>{ location.href=location.pathname+'?t='+Date.now()+location.hash; }, 30*60*1000);

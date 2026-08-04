@@ -22,9 +22,9 @@ from __future__ import annotations
 # GID_META / GID_SALES: o número depois de "gid=" na URL de cada aba.
 # A planilha precisa estar com o link público em modo "Qualquer pessoa com
 # o link pode visualizar" (o build lê via export CSV, somente leitura).
-SPREADSHEET_ID = ""   # ex.: "1AbCdEfGhIjKlMnOpQrStUvWxYz0123456789abcdefg"
-GID_META = ""          # ex.: "111111111"  (aba Meta Ads)
-GID_SALES = ""         # ex.: "222222222"  (aba Compradores)
+SPREADSHEET_ID = "1GBGjbfDT5yRXwlfhjzxPZml1SiwXJ7O6U0woFzw4o_c"
+GID_META = "1195145852"     # aba Meta Ads (Day · Campaign · Ad Set · Ad Name · Amount Spent · …)
+GID_SALES = "1836439885"    # aba Compradores (Data da compra · Nome · Email · Produto · Faturamento ajustado · Utm_*)
 
 # ==========================================================================
 # 2) REGRAS DE NEGÓCIO
@@ -37,7 +37,7 @@ TAX_FACTOR = 1.0   # ex.: 1.13806 (equivale a +13,806%)
 # Produto principal do funil (base de Vendas/CAC/ConvCHK/Ticket). Casamento
 # por PREFIXO, sem acento e em minúsculas, sobre o nome do produto que
 # aparece na coluna "Produto" da planilha de Compradores.
-MAIN_PRODUCT_PREFIX = ""   # ex.: "nome do produto" (produto "Nome do Produto")
+MAIN_PRODUCT_PREFIX = "protocolo r10k"   # casa "Protocolo R10K | A Estratégia de Caixa Rápido para Médicos."
 
 # A planilha de Compradores tem uma coluna de status de pagamento confiável
 # (ex.: "pago"/"aprovado" vs. "aberto"/"cancelado")? Se SIM, deixe False e o
@@ -49,10 +49,10 @@ COUNT_ALL_AS_PAID = True
 # ==========================================================================
 # 3) RÓTULOS EXIBIDOS NA INTERFACE
 # ==========================================================================
-CLIENT_NAME = ""    # ex.: "Nome do Cliente" — aparece no topo do menu lateral
-CLIENT_SUB = ""     # ex.: "VSL Nome do Funil" — subtítulo abaixo do nome
-TAX_LABEL = ""       # ex.: "Imposto Meta ×1,13806" — rótulo do toggle de imposto
-MAIN_PRODUCT = ""    # ex.: "Nome do Produto" — nome de exibição do produto principal
+CLIENT_NAME = "Império Médico"          # aparece no topo do menu lateral
+CLIENT_SUB = "Ebook RK10 · Tráfego Direto"  # subtítulo abaixo do nome
+TAX_LABEL = "Imposto Meta"               # rótulo do toggle (TAX_FACTOR=1.0 -> sem efeito)
+MAIN_PRODUCT = "Ebook RK10"              # nome de exibição do produto principal
 
 # ==========================================================================
 # 4) METAS (aba Relatórios) — código de cor de CAC/ROAS
@@ -62,8 +62,8 @@ MAIN_PRODUCT = ""    # ex.: "Nome do Produto" — nome de exibição do produto 
 # Faixas de cor (sobre o desempenho): <REPORT_BAND_LOW vermelho ·
 #   REPORT_BAND_LOW–0.99 amarelo · 1.00–REPORT_BAND_HIGH verde ·
 #   ≥REPORT_BAND_HIGH azul-ciano.
-CAC_TARGET = 0.0     # CAC alvo (R$ por venda do produto principal)
-ROAS_TARGET = 0.0    # ROAS alvo (Faturamento / Gasto)
+CAC_TARGET = 47.90   # breakeven do ticket do Ebook RK10 (R$ 47,90) — ajuste à meta real do cliente
+ROAS_TARGET = 1.0    # breakeven de front-end (Faturamento = Gasto) — ajuste à meta real do cliente
 REPORT_BAND_LOW = 0.70
 REPORT_BAND_HIGH = 1.30
 
