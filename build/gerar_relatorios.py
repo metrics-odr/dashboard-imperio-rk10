@@ -148,11 +148,64 @@ def by_dim(meta, sales, a, b, dim):
     return mp
 
 
+def by_struct(meta, sales, a, b):
+    """Agrega no nível real da estrutura: (campanha, conjunto, anúncio).
+    O mesmo nome de anúncio pode existir em conjuntos/campanhas diferentes —
+    a chave tripla preserva a hierarquia para o briefing citar Campanha →
+    Conjunto → Anúncio corretamente."""
+    mp = {}
+    def keyf(x):
+        return (x["camp"], x["adset"], x["ad"])
+    for m in meta:
+        if in_range(m["d"], a, b):
+            mp.setdefault(keyf(m), new_bucket())
+            add_meta(mp[keyf(m)], m)
+    for s in sales:
+        if in_range(s["d"], a, b) and s["meta"]:
+            mp.setdefault(keyf(s), new_bucket())
+            add_sale(mp[keyf(s)], s)
+    return mp
+
+
+def rank_structs(items, roas_target):
+    """Ranking honesto de anúncios (nível estrutura, com hierarquia).
+    - Top = só anúncios que VENDERAM e bateram a meta de ROAS. Se ninguém
+      bateu, retorna os de melhor desempenho relativo com `top_obs`
+      preenchido (ressalva de que estão abaixo do alvo); se ninguém vendeu,
+      top vazio e `top_obs` diz que não há bons resultados.
+    - Piores = quem torrou verba: primeiro os 0-venda (maior gasto), depois
+      os de pior ROAS. Nunca coloca um 0-venda no Top.
+    Cada item traz campanha/conjunto/anuncio para o texto citar a hierarquia."""
+    def by_perf(x):
+        return (-(x["roas"] if x["roas"] is not None else -1),
+                x["cac"] if x["cac"] is not None else 9e9)
+    com = sorted([x for x in items if x["vendas"] >= 1], key=by_perf)
+    meta = roas_target if (roas_target and roas_target > 0) else 0
+    bons = [x for x in com if x["roas"] is not None and (x["roas"] >= meta if meta > 0 else x["roas"] > 0)]
+    if bons:
+        top, top_obs = bons[:5], ""
+    elif com:
+        top = com[:5]
+        top_obs = ("Nenhum anúncio bateu a meta de ROAS neste período — os abaixo são "
+                   "apenas os de melhor desempenho relativo, ainda abaixo do alvo.")
+    else:
+        top, top_obs = [], "Não há anúncios com bons resultados neste período."
+    topkeys = {(x["campanha"], x["conjunto"], x["anuncio"]) for x in top}
+
+    def by_waste(x):
+        return (0 if x["vendas"] == 0 else 1,
+                (x["roas"] if x["roas"] is not None else -1),
+                -(x["gasto"] or 0))
+    worst = sorted([x for x in items if (x["campanha"], x["conjunto"], x["anuncio"]) not in topkeys],
+                   key=by_waste)[:5]
+    return top, top_obs, worst
+
+
 def r(v, p=4):
     return None if v is None else round(v, p)
 
 
-def period_metrics(meta, sales, a, b, tax):
+def period_metrics(meta, sales, a, b, tax, roas_target=None):
     dT, dA = derive(totals(meta, sales, a, b, False), tax), derive(totals(meta, sales, a, b, True), tax)
 
     def pack(d):
@@ -163,20 +216,21 @@ def period_metrics(meta, sales, a, b, tax):
     for name, bk in sorted(by_dim(meta, sales, a, b, "camp").items(), key=lambda kv: -kv[1]["sp"]):
         d = derive(bk, tax)
         camps.append({"nome": name, **pack(d)})
-    ads = []
-    for name, bk in by_dim(meta, sales, a, b, "ad").items():
+
+    # Estruturas no nível real (campanha → conjunto → anúncio), só com gasto.
+    estruturas = []
+    for (camp, adset, ad), bk in by_struct(meta, sales, a, b).items():
         if bk["sp"] <= 0:
             continue
         d = derive(bk, tax)
-        ads.append({"nome": name, "gasto": r(d["gasto"], 2), "vendas": d["vendas"],
-                    "cac": r(d["cac"], 2), "roas": r(d["roas"], 2)})
-    ads.sort(key=lambda x: (-(x["roas"] if x["roas"] is not None else -1),
-                            x["cac"] if x["cac"] is not None else 9e9))
-    top = ads[:5]
-    top_names = {x["nome"] for x in top}
-    worst = [x for x in ads if x["nome"] not in top_names][-5:][::-1]
+        estruturas.append({"campanha": camp, "conjunto": adset, "anuncio": ad,
+                           "gasto": r(d["gasto"], 2), "vendas": d["vendas"],
+                           "cac": r(d["cac"], 2), "roas": r(d["roas"], 2)})
+    estruturas.sort(key=lambda x: -(x["gasto"] or 0))
+    top, top_obs, worst = rank_structs(estruturas, roas_target)
     return {"de": a, "ate": b, "total": pack(dT), "ads": pack(dA),
-            "campanhas": camps, "top_anuncios": top, "piores_anuncios": worst}
+            "campanhas": camps, "estruturas": estruturas,
+            "top_anuncios": top, "top_obs": top_obs, "piores_anuncios": worst}
 
 
 def main():
@@ -210,7 +264,8 @@ def main():
         "hoje": B["today"], "periodo_dados": {"de": B["date_min"], "ate": B["date_max"]},
         "metas": {"cac": B.get("cac_target"), "roas": B.get("roas_target")},
         "ticket_medio_geral": r(derive(totals(meta, sales, B["date_min"], B["date_max"], False), tax)["ticket"], 2),
-        "periodos": {k: period_metrics(meta, sales, a, b, tax) for k, (a, b) in ps.items()},
+        "periodos": {k: period_metrics(meta, sales, a, b, tax, B.get("roas_target"))
+                     for k, (a, b) in ps.items()},
     }
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)

@@ -1,5 +1,5 @@
 {
-  "gerado_em": "04/08/2026 16:17",
+  "gerado_em": "04/08/2026 16:38",
   "hoje": "2026-08-04",
   "periodo_dados": {
     "de": "2026-07-17",
@@ -80,30 +80,66 @@
           "ticket": null
         }
       ],
-      "top_anuncios": [
+      "estruturas": [
         {
-          "nome": "CSER10K - 12",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
           "gasto": 96.33,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 14",
-          "gasto": 30.59,
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 42.31,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - VD - 05",
-          "gasto": 42.31,
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 30.59,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         }
       ],
-      "piores_anuncios": []
+      "top_anuncios": [],
+      "top_obs": "Não há anúncios com bons resultados neste período.",
+      "piores_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
+          "gasto": 96.33,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 42.31,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 30.59,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ]
     },
     "ontem": {
       "de": "2026-08-03",
@@ -174,30 +210,67 @@
           "ticket": 47.9
         }
       ],
-      "top_anuncios": [
+      "estruturas": [
         {
-          "nome": "CSER10K - VD - 05",
-          "gasto": 102.33,
-          "vendas": 2,
-          "cac": 51.16,
-          "roas": 0.94
-        },
-        {
-          "nome": "CSER10K - 12",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
           "gasto": 210.4,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 14",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 102.33,
+          "vendas": 2,
+          "cac": 51.16,
+          "roas": 0.94
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
           "gasto": 57.12,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         }
       ],
-      "piores_anuncios": []
+      "top_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 102.33,
+          "vendas": 2,
+          "cac": 51.16,
+          "roas": 0.94
+        }
+      ],
+      "top_obs": "Nenhum anúncio bateu a meta de ROAS neste período — os abaixo são apenas os de melhor desempenho relativo, ainda abaixo do alvo.",
+      "piores_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
+          "gasto": 210.4,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 57.12,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ]
     },
     "3d": {
       "de": "2026-08-02",
@@ -268,30 +341,67 @@
           "ticket": 47.9
         }
       ],
-      "top_anuncios": [
+      "estruturas": [
         {
-          "nome": "CSER10K - VD - 05",
-          "gasto": 288.13,
-          "vendas": 3,
-          "cac": 96.04,
-          "roas": 0.5
-        },
-        {
-          "nome": "CSER10K - 12",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
           "gasto": 572.55,
           "vendas": 1,
           "cac": 572.55,
           "roas": 0.08
         },
         {
-          "nome": "CSER10K - 14",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 288.13,
+          "vendas": 3,
+          "cac": 96.04,
+          "roas": 0.5
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
           "gasto": 155.36,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         }
       ],
-      "piores_anuncios": []
+      "top_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 288.13,
+          "vendas": 3,
+          "cac": 96.04,
+          "roas": 0.5
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
+          "gasto": 572.55,
+          "vendas": 1,
+          "cac": 572.55,
+          "roas": 0.08
+        }
+      ],
+      "top_obs": "Nenhum anúncio bateu a meta de ROAS neste período — os abaixo são apenas os de melhor desempenho relativo, ainda abaixo do alvo.",
+      "piores_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 155.36,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ]
     },
     "7d": {
       "de": "2026-07-29",
@@ -362,29 +472,65 @@
           "ticket": 47.9
         }
       ],
-      "top_anuncios": [
+      "estruturas": [
         {
-          "nome": "CSER10K - VD - 05",
-          "gasto": 657.13,
-          "vendas": 3,
-          "cac": 219.04,
-          "roas": 0.22
-        },
-        {
-          "nome": "CSER10K - 12",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
           "gasto": 1344.89,
           "vendas": 6,
           "cac": 224.15,
           "roas": 0.21
         },
         {
-          "nome": "CSER10K - 14",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 657.13,
+          "vendas": 3,
+          "cac": 219.04,
+          "roas": 0.22
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
           "gasto": 332.99,
           "vendas": 1,
           "cac": 332.99,
           "roas": 0.14
         }
       ],
+      "top_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 657.13,
+          "vendas": 3,
+          "cac": 219.04,
+          "roas": 0.22
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
+          "gasto": 1344.89,
+          "vendas": 6,
+          "cac": 224.15,
+          "roas": 0.21
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 332.99,
+          "vendas": 1,
+          "cac": 332.99,
+          "roas": 0.14
+        }
+      ],
+      "top_obs": "Nenhum anúncio bateu a meta de ROAS neste período — os abaixo são apenas os de melhor desempenho relativo, ainda abaixo do alvo.",
       "piores_anuncios": []
     },
     "14d": {
@@ -456,44 +602,103 @@
           "ticket": 47.9
         }
       ],
-      "top_anuncios": [
+      "estruturas": [
         {
-          "nome": "CSER10K - VD - 05",
-          "gasto": 1129.39,
-          "vendas": 7,
-          "cac": 161.34,
-          "roas": 0.3
-        },
-        {
-          "nome": "CSER10K - 12",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
           "gasto": 2081.81,
           "vendas": 10,
           "cac": 208.18,
           "roas": 0.23
         },
         {
-          "nome": "CSER10K - 14",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 1129.39,
+          "vendas": 7,
+          "cac": 161.34,
+          "roas": 0.3
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
           "gasto": 671.72,
           "vendas": 3,
           "cac": 223.91,
           "roas": 0.21
         },
         {
-          "nome": "CSER10K - VD - 04",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - VD - 04",
+          "anuncio": "CSER10K - VD - 04",
           "gasto": 193.42,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 20",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 20",
+          "anuncio": "CSER10K - 20",
           "gasto": 21.16,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         }
       ],
-      "piores_anuncios": []
+      "top_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 1129.39,
+          "vendas": 7,
+          "cac": 161.34,
+          "roas": 0.3
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
+          "gasto": 2081.81,
+          "vendas": 10,
+          "cac": 208.18,
+          "roas": 0.23
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 671.72,
+          "vendas": 3,
+          "cac": 223.91,
+          "roas": 0.21
+        }
+      ],
+      "top_obs": "Nenhum anúncio bateu a meta de ROAS neste período — os abaixo são apenas os de melhor desempenho relativo, ainda abaixo do alvo.",
+      "piores_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - VD - 04",
+          "anuncio": "CSER10K - VD - 04",
+          "gasto": 193.42,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 20",
+          "anuncio": "CSER10K - 20",
+          "gasto": 21.16,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ]
     },
     "30d": {
       "de": "2026-07-06",
@@ -564,68 +769,161 @@
           "ticket": 47.9
         }
       ],
-      "top_anuncios": [
+      "estruturas": [
         {
-          "nome": "CSER10K - VD - 05",
-          "gasto": 1392.3,
-          "vendas": 8,
-          "cac": 174.04,
-          "roas": 0.28
-        },
-        {
-          "nome": "CSER10K - 14",
-          "gasto": 920.7,
-          "vendas": 5,
-          "cac": 184.14,
-          "roas": 0.26
-        },
-        {
-          "nome": "CSER10K - 12",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
           "gasto": 2081.81,
           "vendas": 10,
           "cac": 208.18,
           "roas": 0.23
         },
         {
-          "nome": "CSER10K - VD - 04",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 1392.3,
+          "vendas": 8,
+          "cac": 174.04,
+          "roas": 0.28
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 920.7,
+          "vendas": 5,
+          "cac": 184.14,
+          "roas": 0.26
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 20",
+          "anuncio": "CSER10K - 20",
+          "gasto": 296.34,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - VD - 04",
+          "anuncio": "CSER10K - VD - 04",
           "gasto": 193.42,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 20",
-          "gasto": 296.34,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        }
-      ],
-      "piores_anuncios": [
-        {
-          "nome": "CSER10K - 18",
-          "gasto": 58.25,
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 03",
+          "anuncio": "CSER10K - VD - 03",
+          "gasto": 59.51,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 21",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 21",
+          "anuncio": "CSER10K - 21",
           "gasto": 58.5,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 15",
-          "gasto": 56.81,
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 18",
+          "anuncio": "CSER10K - 18",
+          "gasto": 58.25,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - VD - 03",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 15",
+          "anuncio": "CSER10K - 15",
+          "gasto": 56.81,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "top_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 1392.3,
+          "vendas": 8,
+          "cac": 174.04,
+          "roas": 0.28
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 920.7,
+          "vendas": 5,
+          "cac": 184.14,
+          "roas": 0.26
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
+          "gasto": 2081.81,
+          "vendas": 10,
+          "cac": 208.18,
+          "roas": 0.23
+        }
+      ],
+      "top_obs": "Nenhum anúncio bateu a meta de ROAS neste período — os abaixo são apenas os de melhor desempenho relativo, ainda abaixo do alvo.",
+      "piores_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 20",
+          "anuncio": "CSER10K - 20",
+          "gasto": 296.34,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - VD - 04",
+          "anuncio": "CSER10K - VD - 04",
+          "gasto": 193.42,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 03",
+          "anuncio": "CSER10K - VD - 03",
           "gasto": 59.51,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 21",
+          "anuncio": "CSER10K - 21",
+          "gasto": 58.5,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 18",
+          "anuncio": "CSER10K - 18",
+          "gasto": 58.25,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -701,30 +999,67 @@
           "ticket": 47.9
         }
       ],
-      "top_anuncios": [
+      "estruturas": [
         {
-          "nome": "CSER10K - VD - 05",
-          "gasto": 363.99,
-          "vendas": 3,
-          "cac": 121.33,
-          "roas": 0.39
-        },
-        {
-          "nome": "CSER10K - 12",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
           "gasto": 739.06,
           "vendas": 3,
           "cac": 246.35,
           "roas": 0.19
         },
         {
-          "nome": "CSER10K - 14",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 363.99,
+          "vendas": 3,
+          "cac": 121.33,
+          "roas": 0.39
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
           "gasto": 190.8,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         }
       ],
-      "piores_anuncios": []
+      "top_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 363.99,
+          "vendas": 3,
+          "cac": 121.33,
+          "roas": 0.39
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
+          "gasto": 739.06,
+          "vendas": 3,
+          "cac": 246.35,
+          "roas": 0.19
+        }
+      ],
+      "top_obs": "Nenhum anúncio bateu a meta de ROAS neste período — os abaixo são apenas os de melhor desempenho relativo, ainda abaixo do alvo.",
+      "piores_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 190.8,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ]
     },
     "mespass": {
       "de": "2026-07-01",
@@ -795,68 +1130,161 @@
           "ticket": 47.9
         }
       ],
-      "top_anuncios": [
+      "estruturas": [
         {
-          "nome": "CSER10K - 14",
-          "gasto": 729.9,
-          "vendas": 5,
-          "cac": 145.98,
-          "roas": 0.33
-        },
-        {
-          "nome": "CSER10K - 12",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
           "gasto": 1342.75,
           "vendas": 7,
           "cac": 191.82,
           "roas": 0.25
         },
         {
-          "nome": "CSER10K - VD - 05",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
           "gasto": 1028.31,
           "vendas": 5,
           "cac": 205.66,
           "roas": 0.23
         },
         {
-          "nome": "CSER10K - VD - 04",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 729.9,
+          "vendas": 5,
+          "cac": 145.98,
+          "roas": 0.33
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 20",
+          "anuncio": "CSER10K - 20",
+          "gasto": 296.34,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - VD - 04",
+          "anuncio": "CSER10K - VD - 04",
           "gasto": 193.42,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 20",
-          "gasto": 296.34,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        }
-      ],
-      "piores_anuncios": [
-        {
-          "nome": "CSER10K - 18",
-          "gasto": 58.25,
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 03",
+          "anuncio": "CSER10K - VD - 03",
+          "gasto": 59.51,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 21",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 21",
+          "anuncio": "CSER10K - 21",
           "gasto": 58.5,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 15",
-          "gasto": 56.81,
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 18",
+          "anuncio": "CSER10K - 18",
+          "gasto": 58.25,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - VD - 03",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 15",
+          "anuncio": "CSER10K - 15",
+          "gasto": 56.81,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "top_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 729.9,
+          "vendas": 5,
+          "cac": 145.98,
+          "roas": 0.33
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
+          "gasto": 1342.75,
+          "vendas": 7,
+          "cac": 191.82,
+          "roas": 0.25
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 1028.31,
+          "vendas": 5,
+          "cac": 205.66,
+          "roas": 0.23
+        }
+      ],
+      "top_obs": "Nenhum anúncio bateu a meta de ROAS neste período — os abaixo são apenas os de melhor desempenho relativo, ainda abaixo do alvo.",
+      "piores_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 20",
+          "anuncio": "CSER10K - 20",
+          "gasto": 296.34,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - VD - 04",
+          "anuncio": "CSER10K - VD - 04",
+          "gasto": 193.42,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 03",
+          "anuncio": "CSER10K - VD - 03",
           "gasto": 59.51,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 21",
+          "anuncio": "CSER10K - 21",
+          "gasto": 58.5,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 18",
+          "anuncio": "CSER10K - 18",
+          "gasto": 58.25,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
@@ -932,68 +1360,161 @@
           "ticket": 47.9
         }
       ],
-      "top_anuncios": [
+      "estruturas": [
         {
-          "nome": "CSER10K - VD - 05",
-          "gasto": 1392.3,
-          "vendas": 8,
-          "cac": 174.04,
-          "roas": 0.28
-        },
-        {
-          "nome": "CSER10K - 14",
-          "gasto": 920.7,
-          "vendas": 5,
-          "cac": 184.14,
-          "roas": 0.26
-        },
-        {
-          "nome": "CSER10K - 12",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
           "gasto": 2081.81,
           "vendas": 10,
           "cac": 208.18,
           "roas": 0.23
         },
         {
-          "nome": "CSER10K - VD - 04",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 1392.3,
+          "vendas": 8,
+          "cac": 174.04,
+          "roas": 0.28
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 920.7,
+          "vendas": 5,
+          "cac": 184.14,
+          "roas": 0.26
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 20",
+          "anuncio": "CSER10K - 20",
+          "gasto": 296.34,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - VD - 04",
+          "anuncio": "CSER10K - VD - 04",
           "gasto": 193.42,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 20",
-          "gasto": 296.34,
-          "vendas": 0,
-          "cac": null,
-          "roas": 0.0
-        }
-      ],
-      "piores_anuncios": [
-        {
-          "nome": "CSER10K - 18",
-          "gasto": 58.25,
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 03",
+          "anuncio": "CSER10K - VD - 03",
+          "gasto": 59.51,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 21",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 21",
+          "anuncio": "CSER10K - 21",
           "gasto": 58.5,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - 15",
-          "gasto": 56.81,
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 18",
+          "anuncio": "CSER10K - 18",
+          "gasto": 58.25,
           "vendas": 0,
           "cac": null,
           "roas": 0.0
         },
         {
-          "nome": "CSER10K - VD - 03",
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 15",
+          "anuncio": "CSER10K - 15",
+          "gasto": 56.81,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        }
+      ],
+      "top_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 05",
+          "anuncio": "CSER10K - VD - 05",
+          "gasto": 1392.3,
+          "vendas": 8,
+          "cac": 174.04,
+          "roas": 0.28
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 14",
+          "anuncio": "CSER10K - 14",
+          "gasto": 920.7,
+          "vendas": 5,
+          "cac": 184.14,
+          "roas": 0.26
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - 12",
+          "anuncio": "CSER10K - 12",
+          "gasto": 2081.81,
+          "vendas": 10,
+          "cac": 208.18,
+          "roas": 0.23
+        }
+      ],
+      "top_obs": "Nenhum anúncio bateu a meta de ROAS neste período — os abaixo são apenas os de melhor desempenho relativo, ainda abaixo do alvo.",
+      "piores_anuncios": [
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 20",
+          "anuncio": "CSER10K - 20",
+          "gasto": 296.34,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "01 | Advantage | CSER10K - VD - 04",
+          "anuncio": "CSER10K - VD - 04",
+          "gasto": 193.42,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - VD - 03",
+          "anuncio": "CSER10K - VD - 03",
           "gasto": 59.51,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 21",
+          "anuncio": "CSER10K - 21",
+          "gasto": 58.5,
+          "vendas": 0,
+          "cac": null,
+          "roas": 0.0
+        },
+        {
+          "campanha": "RK10 | VENDA | ABO | FRIO | ALL | BR | 17-07-26 | Teste de criativos",
+          "conjunto": "00 | Advantage | CSER10K - 18",
+          "anuncio": "CSER10K - 18",
+          "gasto": 58.25,
           "vendas": 0,
           "cac": null,
           "roas": 0.0

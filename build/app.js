@@ -457,11 +457,11 @@ function relCards(id,t){ const d=derive(t);
   ].join('');
 }
 /* tabela estática simples (cols/rows/foot = [{v,cls}]) — mantém a estética .dt */
-function relRenderTable(id,cols,rows,foot){
+function relRenderTable(id,cols,rows,foot,emptyMsg){
   const el=document.getElementById(id); if(!el) return;
   const th='<thead><tr>'+cols.map(c=>`<th class="${c.cls||''}">${c.label}</th>`).join('')+'</tr></thead>';
   const tb='<tbody>'+(rows.length?rows.map(r=>'<tr>'+r.map(c=>`<td class="${c.cls||''}">${c.v}</td>`).join('')+'</tr>').join('')
-    :`<tr><td class="dim" colspan="${cols.length}" style="color:var(--muted)">Sem dados no período.</td></tr>`)+'</tbody>';
+    :`<tr><td class="dim" colspan="${cols.length}" style="color:var(--muted)">${emptyMsg||'Sem dados no período.'}</td></tr>`)+'</tbody>';
   const tf=foot?('<tfoot><tr>'+foot.map(c=>`<td class="${c.cls||''}">${c.v}</td>`).join('')+'</tr></tfoot>'):'';
   el.innerHTML=th+tb+tf;
 }
@@ -522,19 +522,35 @@ function renderRelatorios(){
     [{v:'Total',cls:'dim'},{v:brl(dvA.gasto)},{v:intf(tAds.vendas)},{v:roasf(dvA.roas),cls:relColor(dvA.roas,'roas')},{v:brl(dvA.cac),cls:relColor(dvA.cac,'cac')},
      {v:brl(dvA.cpm)},{v:pct(dvA.ctr)},{v:pct(dvA.cr)},{v:pct(dvA.vischk)},{v:pct(dvA.convchk)}]);
 
-  /* top / piores anúncios (só Meta Ads, com gasto no período) */
+  /* top / piores anúncios (só Meta Ads, com gasto no período).
+     Regra honesta: um anúncio que só gastou (0 venda) OU não bateu a meta de
+     ROAS NÃO é "top". Se ninguém bateu a meta, mostramos os de melhor
+     desempenho relativo com uma OBS (ou o estado vazio, se ninguém vendeu).
+     Piores = quem torrou verba: primeiro os 0-venda (maior gasto), depois
+     os de pior ROAS. */
   const aggAd=buildAgg(fSads,fM,'ad');
   const ads=Object.entries(aggAd).filter(([n,ag])=>ag.sp>0).map(([name,ag])=>{ const d=derive(ag);
     return {name,gasto:d.gasto,vendas:ag.vendas,cac:d.cac,roas:d.roas}; });
-  ads.sort((a,b)=>{ const ra=a.roas==null?-1:a.roas, rb=b.roas==null?-1:b.roas; if(rb!==ra) return rb-ra;
-    const ca=a.cac==null?Infinity:a.cac, cb=b.cac==null?Infinity:b.cac; return ca-cb; });
-  const top=ads.slice(0,5), topSet=new Set(top.map(a=>a.name));
-  const worst=ads.filter(a=>!topSet.has(a.name)).slice(-5).reverse();
+  const byPerf=(a,b)=>{ const ra=a.roas==null?-1:a.roas, rb=b.roas==null?-1:b.roas; if(rb!==ra) return rb-ra;
+    const ca=a.cac==null?Infinity:a.cac, cb=b.cac==null?Infinity:b.cac; return ca-cb; };
+  const comVenda=ads.filter(a=>a.vendas>=1).sort(byPerf);
+  const meta=ROAS_TARGET>0?ROAS_TARGET:0;
+  const bons=comVenda.filter(a=>a.roas!=null && (meta>0? a.roas>=meta : a.roas>0));
+  let top, topObs='';
+  if(bons.length){ top=bons.slice(0,5); }
+  else if(comVenda.length){ top=comVenda.slice(0,5);
+    topObs='Nenhum anúncio bateu a meta de ROAS neste período — abaixo, os de melhor desempenho relativo (ainda abaixo do alvo).'; }
+  else { top=[]; topObs=''; }
+  const topSet=new Set(top.map(a=>a.name));
+  const byWaste=(a,b)=>{ const za=a.vendas===0?0:1, zb=b.vendas===0?0:1; if(za!==zb) return za-zb;
+    const ra=a.roas==null?-1:a.roas, rb=b.roas==null?-1:b.roas; if(ra!==rb) return ra-rb; return b.gasto-a.gasto; };
+  const worst=ads.filter(a=>!topSet.has(a.name)).sort(byWaste).slice(0,5);
   const adCols=[{label:'Anúncio',cls:'dim'},{label:'Gasto'},{label:'Vendas'},{label:'CAC'},{label:'ROAS'},{label:'Link',cls:'dim'}];
   const adRows=list=>list.map(a=>[{v:esc(a.name),cls:'dim'},{v:brl(a.gasto)},{v:intf(a.vendas)},
     {v:brl(a.cac),cls:relColor(a.cac,'cac')},{v:roasf(a.roas),cls:relColor(a.roas,'roas')},{v:adLink(a.name),cls:'dim'}]);
-  relRenderTable('relTop',adCols,adRows(top));
-  relRenderTable('relWorst',adCols,adRows(worst));
+  relRenderTable('relTop',adCols,adRows(top),null,'Não há anúncios com bons resultados neste período.');
+  relRenderTable('relWorst',adCols,adRows(worst),null,'Nenhum anúncio com gasto no período.');
+  { const ob=document.getElementById('relTopObs'); if(ob){ ob.textContent=topObs; ob.style.display=topObs?'block':'none'; } }
 
   /* briefing do gestor (texto pré-gerado por IA) */
   renderRelBrief();

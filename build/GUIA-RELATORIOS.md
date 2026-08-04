@@ -95,6 +95,32 @@ Heurísticas: CTR baixo + ROAS/CAC bons = anúncio qualifica (não mexer). CR ba
 cai só num conjunto = público daquele conjunto. Volume baixo = ruído: não corte
 estrutura por 1–2 dias ruins; priorize tendência sobre valor absoluto.
 
+## Como citar estruturas e classificar anúncios (OBRIGATÓRIO)
+
+- **Sempre** identifique cada anúncio pela hierarquia **Campanha → Conjunto →
+  Anúncio**, usando os campos `campanha`, `conjunto`, `anuncio` presentes em
+  `estruturas`, `top_anuncios` e `piores_anuncios` do metrics JSON. **Nunca**
+  cite só o nome abreviado do anúncio (ex.: "CSER10K-12") — em contas com
+  várias campanhas o mesmo nome de anúncio se repete e a recomendação fica
+  ambígua/inútil. Ex. correto: "o anúncio **CSER10K-12** (conjunto *01 |
+  Advantage | CSER10K-12*, campanha *RK10 | VENDA | ABO … Teste de criativos*)".
+  Quando houver uma só campanha ativa, diga isso e ainda assim nomeie o conjunto.
+- Use a lista `estruturas` (todas as estruturas com gasto, nível campanha→
+  conjunto→anúncio) para embasar as recomendações por conjunto/anúncio.
+
+- **Top / Piores anúncios — regra honesta (não recalcule).** O metrics JSON já
+  traz `top_anuncios`, `piores_anuncios` e `top_obs` prontos com a regra certa;
+  apenas reflita-os no texto:
+  - Se `top_anuncios` vier **vazio** (e `top_obs` = "Não há anúncios com bons
+    resultados neste período."), escreva **exatamente isso**. **Não** liste
+    anúncios ruins como se fossem destaques só para preencher.
+  - Se `top_obs` trouxer a ressalva de "melhor desempenho relativo", ao citar
+    esses anúncios deixe **explícito que ainda estão abaixo da meta** — não os
+    chame de "vencedores" nem mande escalar.
+  - **Nunca** apresente um anúncio com **0 venda** como destaque positivo.
+    Anúncio que só gastou sem vender é candidato a **Cortar** e já vem em
+    `piores_anuncios` — trate-o como alerta, não como top.
+
 ## Metas e código de cor (só CAC e ROAS)
 
 Metas em `build/config.py` (`CAC_TARGET`, `ROAS_TARGET`); vêm no metrics JSON em
